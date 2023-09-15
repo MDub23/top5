@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+hr {border: solid 1px; color: cornflowerblue;}
+
+h1, p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0); 
+    background-color: rgb(240, 248, 255, 70%);
+}
+
+.intro {
+    height: 200px;
+    background-image: url("https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg");
+    background-size: cover;
+    background-position:center;
+    border: solid cornflowerblue 10px;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
