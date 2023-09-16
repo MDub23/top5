@@ -86,3 +86,61 @@ ol {
     display: flex;
     justify-content: left;
 }
+
+@media all and (max-width: 500px){
+
+body {margin: auto}
+
+    a{color: aliceblue;}
+    
+.container1, .container2, .container3, .container4, .container5 {
+    background-image: none;
+    justify-content: left;
+    margin: auto;
+    width: 400px;
+}
+
+
+.ol1 {
+    width: 380px;
+    background-image: url(/images/zeppelin.png);
+    background-size: 50% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.ol2 {
+    width: 380px;
+    background-image: url(/images/teskey.png);
+    background-size: 50% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.ol3 {
+    width: 380px;
+    background-image: url(/images/sinatra.png);
+    background-size: 50% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.ol4 {
+    width: 380px;
+    background-image: url(/images/otis.png);
+    background-size: 50% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.ol5 {
+    width: 380px;
+    background-image: url(/images/allen.png);
+    background-size: 50% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+
+}
