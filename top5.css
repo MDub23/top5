@@ -7,7 +7,12 @@ hr {border: solid 1px; color: cornflowerblue;}
 h1, p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(0, 0, 0); 
-    background-color: rgb(240, 248, 255, 70%);
+    background-color: rgb(240, 248, 255, 50%);
+}
+
+ol {
+    width: 360px;
+    background-color:rgb(240, 248, 255, 50%)
 }
 
 .intro {
@@ -22,4 +27,62 @@ h1, p {
     justify-content: center;
     text-align: center;
     font-size: 25px;
+    padding: 10px;
+}
+
+.container1 {
+    margin: auto;
+    width: 800px;
+    color: crimson;
+    background-image: url(/images/zeppelin.png);
+    background-size: 50% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+}
+
+.container2 {
+    margin: auto;
+    width: 800px;
+    color: rgb(238, 255, 0);
+    background-image: url(/images/teskey.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+}
+
+
+.container3 {
+    margin: auto;
+    width: 800px;
+    color: rgb(61, 110, 255);
+    background-image: url(/images/sinatra.png);
+    background-size: 50% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+}
+
+.container4 {
+    margin: auto;
+    width: 800px;
+    color: rgb(255, 136, 0);
+    background-image: url(/images/otis.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+}
+
+.container5 {
+    margin: auto;
+    width: 800px;
+    color: rgb(0, 255, 17);
+    background-image: url(/images/allen.png);
+    background-size: 50% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
 }
